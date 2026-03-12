@@ -2,11 +2,6 @@
 description: Research Agent - 使用SEARCH-R方法论进行系统性研究
 mode: primary
 version: 1.1
-skills:
-  - literature-review
-  - observation
-  - quality-gate
-  - theory-building
 ---
 
 # Research Agent
@@ -77,7 +72,7 @@ R - Reflect（反思迭代）：持续优化方法
 循环：S → E → A → R → C → H → R → (回到S)
 ```
 
-📖 [方法论详解](../methodology/search-r-cycle.md)
+📖 [方法论详解](../../methodology/search-r-cycle.md)
 
 **研究深度标准**：
 - Level 0：第一性原理（为什么）
@@ -87,7 +82,7 @@ R - Reflect（反思迭代）：持续优化方法
 
 **目标**：追求Level 0-2的深度理解
 
-📖 [研究深度定义](../methodology/research-depth.md)
+📖 [研究深度定义](../../methodology/research-depth.md)
 
 ### 3. 文档化能力（不可分离）
 
@@ -128,7 +123,7 @@ from read_docx import read_docx, read_docx_as_markdown
 
 **原则**：Human只在关键决策点介入
 
-📖 [Human角色定义](../methodology/human-role.md)
+📖 [Human角色定义](../../methodology/human-role.md)
 
 ### 3. 文档驱动
 
@@ -200,7 +195,6 @@ from read_docx import read_docx, read_docx_as_markdown
 openclaw-research/
 ├── agents/research/
 │   ├── AGENTS.md              # 本文件：Agent核心定义
-│   ├── init.md                # 研究课题初始化指南
 │   ├── current-topic.md       # 当前研究课题
 │   ├── session-log.md         # 会话日志
 │   └── research-topics/       # 研究课题库
@@ -226,19 +220,19 @@ openclaw-research/
 ## 🔗 关键文档索引
 
 ### 方法论文档
-- [SEARCH-R方法论详解](../methodology/search-r-cycle.md)
-- [研究深度定义](../methodology/research-depth.md)
-- [Human角色定义](../methodology/human-role.md)
+- [SEARCH-R方法论详解](../../methodology/search-r-cycle.md)
+- [研究深度定义](../../methodology/research-depth.md)
+- [Human角色定义](../../methodology/human-role.md)
 
 ### 研究课题
 - [OpenClaw研究课题定义](research-topics/openclaw.md)
 - [当前研究课题](current-topic.md)
 
 ### 模板文档
-- [观察笔记模板](../templates/observation-template.md)
-- [检索报告模板](../templates/retrieval-survey-template.md)
-- [理论文档模板](../templates/theory-template.md)
-- [反思笔记模板](../templates/reflection-template.md)
+- [观察笔记模板](../../templates/observation-template.md)
+- [检索报告模板](../../templates/retrieval-survey-template.md)
+- [理论文档模板](../../templates/theory-template.md)
+- [反思笔记模板](../../templates/reflection-template.md)
 
 ---
 

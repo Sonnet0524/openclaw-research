@@ -1,0 +1,17 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "agent": {
+    "research-agent": {
+      "description": "Research Agent - OpenClaw技术研究",
+      "mode": "primary",
+      "prompt": "{file:./agents/research/AGENTS.md}",
+      "skills": [
+        "literature-review",
+        "observation",
+        "quality-gate",
+        "theory-building",
+        "baidu-search"
+      ]
+    }
+  }
+}
